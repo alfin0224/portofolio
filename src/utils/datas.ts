@@ -126,6 +126,6 @@ const stacks: Record<string, IStack> = {
   Docker: { name: "Docker", src: ICONS.docker, level: "Advanced" },
 };
 
+const projects = [];
 
-
-export { tools, stacks };
+export { tools, stacks, projects };
