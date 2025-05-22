@@ -37,7 +37,7 @@ const HeaderSection: FC = () => {
       >
         <a
           className="rounded-[4px] border-2 border-accent px-7 py-5 text-accent transition-all duration-300 hover:bg-accent hover:bg-opacity-10"
-          href=""
+          href="https://drive.google.com/file/d/1dPUV5bQh6Zp4nFY7KUS9om3HJj0dXe7o/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
