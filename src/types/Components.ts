@@ -3,7 +3,6 @@ import { StaticImageData } from "next/image";
 export interface NavbarItemsProps {
   title: string;
   href: string;
-  number: string;
 }
 
 export interface CardAboutProps {

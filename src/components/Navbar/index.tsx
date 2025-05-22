@@ -120,8 +120,7 @@ export default function Navbar() {
                 key={index}
                 onClick={() => setIsOpen(false)}
               >
-                <p className="flex flex-col">
-                  <span className="text-sm text-accent">{item.number}.</span>
+                <p className="flex flex-col text-accent hover:text-cyan-600">
                   {`${item.title}`}
                 </p>
               </Link>
