@@ -267,10 +267,11 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
   {
     title: "Freelance Backend Engineer (Remote – Contract) ",
     url: "https://ragdalion.com",
-    company: "Sikomo HR & Attendance System",
-    date: "Jan 2024 - Present",
+    company: "Ragdalion",
+    date: "Dec 2024 - Feb 2025",
     description: (
       <ul className="list-inside list-disc">
+        <span>Sikomo HR & Attendance System</span>
         <li>
           Built core backend features for HR and attendance management using
           Domain-Driven Design.
