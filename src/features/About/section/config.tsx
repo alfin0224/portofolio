@@ -28,6 +28,26 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
           Successfully resolved urgent production bugs under tight deadlines,
           ensuring system stability and minimizing downtime.
         </li>
+
+        <br />
+        <span>
+          <b>Highlight:</b>
+        </span>
+        <li>
+          Successfully deployed the dashboard application, now actively used by
+          administrators across multiple regions and units.
+        </li>
+        <li>
+          Enabled mobile app usage by farmers for real-time field operations.
+        </li>
+        <li>
+          Reduced bug reports by 45% after implementing stricter code review and
+          testing routines.
+        </li>
+        <li>
+          Improved delivery speed by 30% through better team coordination and
+          modularization.
+        </li>
       </ul>
     ),
     techs: [
@@ -114,6 +134,21 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
           applications, improving monitoring accuracy and operational
           efficiency.
         </li>
+        <br />
+        <span>
+          <b>Highlight:</b>
+        </span>
+        <li>
+          Delivered integrated system enhancing poultry operations and data
+          collection.
+        </li>
+        <li>
+          Improved real-time monitoring and efficiency for field operations.
+        </li>
+        <li>
+          Enabled IoT integration across 100+ farms, increasing data visibility
+          and operational insight.
+        </li>
       </ul>
     ),
     techs: [
@@ -160,16 +195,145 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
     ],
   },
   {
+    title: "Freelance Full Stack Developer (Remote – Contract)",
+    url: "https://arcticgrey.com/",
+    company: "Arctic Grey Ltd.",
+    date: "Jan 2024 - Present",
+    description: (
+      <ul className="list-inside list-disc">
+        <li>
+          Developed BulkHours V1: A dashboard syncing time-tracking data from
+          Time Doctor with Monday.com boards, managing project hours and
+          budgets.
+        </li>
+        <li>
+          Developed BulkHours V2: An upgraded system for client access to time
+          reports and admin dashboards, integrating multiple platforms.
+        </li>
+        <br />
+        <span>
+          <b>Highlight:</b>
+        </span>
+        <li>Reduced sync latency by 70% through backend optimization.</li>
+        <li>
+          Reduced API sync failures by 40% with optimized Redis caching layer.
+        </li>
+        <li>
+          Enabled cross-department time reporting for over 400 client project
+          boards.
+        </li>
+      </ul>
+    ),
+    techs: [
+      {
+        name: "React",
+        icon: ICONS.react,
+      },
+      {
+        name: "Typescript",
+        icon: ICONS.typescriptTsLogo,
+      },
+      {
+        name: "Javascript",
+        icon: ICONS.javascript,
+      },
+      {
+        name: "Bootstrap",
+        icon: ICONS.bootstrap,
+      },
+
+      {
+        name: "Express",
+        icon: ICONS.express,
+      },
+      {
+        name: "MySQL",
+        icon: ICONS.mysqlDb,
+      },
+      {
+        name: "MongoDB",
+        icon: ICONS.mongodb,
+      },
+      {
+        name: "Redis",
+        icon: ICONS.redis,
+      },
+      {
+        name: "AWS",
+        icon: ICONS.aws,
+      },
+    ],
+  },
+  {
+    title: "Freelance Backend Engineer (Remote – Contract) ",
+    url: "https://ragdalion.com",
+    company: "Sikomo HR & Attendance System",
+    date: "Jan 2024 - Present",
+    description: (
+      <ul className="list-inside list-disc">
+        <li>
+          Built core backend features for HR and attendance management using
+          Domain-Driven Design.
+        </li>
+        <li>Implemented employee, attendance, leave, and overtime modules.</li>
+        <li>
+          Integrated JWT authentication, RBAC system, and mobile GPS + face
+          recognition support.
+        </li>
+        <br />
+        <span>
+          <b>Highlight:</b>
+        </span>
+        <li>
+          Delivered 10+ backend modules with full test coverage and
+          transactional integrity.
+        </li>
+        <li>
+          Reduced attendance error rate by enabling face verification and
+          geolocation matching.
+        </li>
+      </ul>
+    ),
+    techs: [
+      {
+        name: "Typescript",
+        icon: ICONS.typescriptTsLogo,
+      },
+      {
+        name: "Express",
+        icon: ICONS.express,
+      },
+      {
+        name: "PostgreSQL",
+        icon: ICONS.postgreSQL,
+      },
+      {
+        name: "Redis",
+        icon: ICONS.redis,
+      },
+    ],
+  },
+  {
     title: "Fullstack Developer",
     url: "",
     company: "Sefeo English Community",
-    date: "Jan 2023 - Aug 2023",
+    date: "Jan 2023 - Sept 2023",
     description: (
-      <p>
-        Developed web applications that serve as advertising media, manage
-        membership data, and handle program-related information for learning
-        activities within the Sefeo English Community.
-      </p>
+      <>
+        <p>
+          Developed web applications that serve as advertising media, manage
+          membership data, and handle program-related information for learning
+          activities within the Sefeo English Community.
+          <br /> <br />
+          <span>
+            <b>Highlight:</b>
+          </span>
+          <li>
+            Delivered robust internal tools to improve education operations.
+          </li>
+          <li>Contributed to increased outreach effectiveness.</li>
+        </p>
+      </>
     ),
     techs: [
       {
@@ -250,6 +414,17 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
           tasks, demonstrating adaptability and commitment to delivering
           high-impact government platforms under tight timelines.
         </li>
+        <br />
+        <span>
+          <b>Highlight:</b>
+        </span>
+        <li>
+          Delivered real-time demographic analytics system for 1.15M+ residents.
+        </li>
+        <li>
+          Helped reduce paperwork processing by 70% through digital
+          correspondence tools.
+        </li>
       </ul>
     ),
     techs: [
@@ -285,7 +460,7 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
   },
   {
     title: "Web Developer",
-    url: "egovernment.papuabaratprov.go.id",
+    url: "https://egovernment.papuabaratprov.go.id",
     company: "Kominfo Papua Barat",
     date: "Feb 2019 - Dec 2021",
     description: (
@@ -333,6 +508,20 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
         <li>
           Developed the E-Budgeting System to manage and monitor provincial
           budgeting processes, enhancing financial transparency and security.
+        </li>
+        <br />
+        <span>
+          <b>Highlight:</b>
+        </span>
+        <li>
+          Contributed to transparency and efficiency in government services.
+        </li>
+        <li>
+          Shortened travel permit processing time from 3 days to under 1 hour
+          via SIKM platform.
+        </li>
+        <li>
+          Delivered systems with strong security and usability compliance.
         </li>
       </ul>
     ),
@@ -384,6 +573,16 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
       <p>
         Developed an application that handles network monitoring issues
         throughout the Pertamina RU IV area as a Full Stack Developer.
+        <ul>
+          <br />
+          <span>
+            <b>Highlight:</b>
+          </span>
+          <li>
+            Decreased network issue resolution time by enabling centralized
+            alerts and logs.
+          </li>
+        </ul>
       </p>
     ),
     techs: [
@@ -410,6 +609,15 @@ export const DATA_WORK_EXPERIENCE: IDATA_WORK_EXPERIENCE[] = [
       <p>
         Developed an inventory module for stock items in the warehouse as a Full
         Stack Developer.
+        <ul>
+          <br />
+          <span>
+            <b>Highlight:</b>
+          </span>
+          <li>
+            Reduced manual stock errors by 30% through system digitization.
+          </li>
+        </ul>
       </p>
     ),
     techs: [

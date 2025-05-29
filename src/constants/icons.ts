@@ -46,6 +46,7 @@ import nestjsIcon from "@icons/nestjs.svg";
 import aws from "@icons/aws.svg";
 import docker from "@icons/docker.svg";
 import gitlab from "@icons/gitlab.svg";
+import redis from "@icons/redis.svg";
 
 const ICONS = {
   // 1. Programming Languages
@@ -93,6 +94,7 @@ const ICONS = {
   prismaOrm: prismaOrmIcon,
   drizzleOrm: drizzleOrmIcon,
   postgreSQL: postgreeIcon,
+  redis: redis,
 
   // 6. Tooling & Dev Tools
   npm: npmIcon,
